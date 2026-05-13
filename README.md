@@ -6,26 +6,26 @@ Repositorio monorepo que consolida las pruebas técnicas entregadas por candidat
 
 ```
 .
-├── julian/
-│   └── employees-back/        # NestJS — API REST de empleados
-├── prueba/
-│   ├── my-app/                # Next.js — Frontend de empleados
-│   └── prueba-backend/        # NestJS — API REST de empleados
-└── sol/
+├── julian_velasquez/
+│   └── employees-back/           # NestJS — API REST de empleados
+├── brayan_mora/
+│   ├── my-app/                   # Next.js — Frontend de empleados
+│   └── prueba-backend/           # NestJS — API REST de empleados
+└── sol_salavarrieta/
     └── prueba_tecnica/
-        ├── backend/           # Spring Boot — API REST de empleados
-        └── frontend/          # React + Vite — Frontend de empleados
+        ├── backend/              # Spring Boot — API REST de empleados
+        └── frontend/             # React + Vite — Frontend de empleados
 ```
 
 ## Candidatos
 
 | Candidato | Proyecto | Stack |
 |-----------|----------|-------|
-| Julian | `julian/employees-back` | NestJS, TypeScript |
-| Prueba | `prueba/prueba-backend` | NestJS, TypeScript |
-| Prueba | `prueba/my-app` | Next.js, React, TypeScript |
-| Sol | `sol/prueba_tecnica/backend` | Spring Boot, Java, Maven |
-| Sol | `sol/prueba_tecnica/frontend` | React, Vite, TypeScript |
+| Julian Velasquez | `julian_velasquez/employees-back` | NestJS, TypeScript |
+| Brayan Mora | `brayan_mora/prueba-backend` | NestJS, TypeScript |
+| Brayan Mora | `brayan_mora/my-app` | Next.js, React, TypeScript |
+| Sol Salavarrieta | `sol_salavarrieta/prueba_tecnica/backend` | Spring Boot, Java, Maven |
+| Sol Salavarrieta | `sol_salavarrieta/prueba_tecnica/frontend` | React, Vite, TypeScript |
 
 ## Instrucciones por stack
 
@@ -40,7 +40,7 @@ npm run start:dev
 ### Next.js
 
 ```bash
-cd prueba/my-app
+cd brayan_mora/my-app
 npm install
 npm run dev
 ```
@@ -48,14 +48,14 @@ npm run dev
 ### Spring Boot
 
 ```bash
-cd sol/prueba_tecnica/backend
+cd sol_salavarrieta/prueba_tecnica/backend
 ./mvnw spring-boot:run
 ```
 
 ### React + Vite
 
 ```bash
-cd sol/prueba_tecnica/frontend
+cd sol_salavarrieta/prueba_tecnica/frontend
 npm install
 npm run dev
 ```
